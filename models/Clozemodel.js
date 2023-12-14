@@ -12,6 +12,8 @@ const clozeSchema = mongoose.Schema(
 
 const ClozeModel = mongoose.model("Cloze", clozeSchema);
 
+
+
 module.exports = {
   ClozeModel,
 };

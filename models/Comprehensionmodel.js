@@ -18,6 +18,8 @@ const comprehensionSchema = mongoose.Schema(
 
 const ComprehensionModel = mongoose.model("Comprehension", comprehensionSchema);
 
+
+
 module.exports = {
   ComprehensionModel,
 };

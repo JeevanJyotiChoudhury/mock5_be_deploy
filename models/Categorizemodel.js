@@ -12,6 +12,8 @@ const categorizeSchema = mongoose.Schema(
 
 const CategorizeModel = mongoose.model("Categorize", categorizeSchema);
 
+
+
 module.exports = {
   CategorizeModel,
 };

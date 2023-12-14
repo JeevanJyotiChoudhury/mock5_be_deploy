@@ -5,7 +5,6 @@ const { ComprehensionModel } = require("../models/ComprehensionModel");
 
 const questionrouter = express.Router();
 
-// Add questions
 questionrouter.post("/add", async (req, res) => {
   try {
     const { type, data } = req.body;
@@ -34,7 +33,6 @@ questionrouter.post("/add", async (req, res) => {
   }
 });
 
-// Get questions
 questionrouter.get("/getAll", async (req, res) => {
   try {
     const categorizeQuestions = await CategorizeModel.find();
